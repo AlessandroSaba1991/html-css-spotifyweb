@@ -68,7 +68,8 @@ path{
   height: 100%;
   background-color: var(--bg_aside);
   color: var(--text_aside);
-  flex-direction: column;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
 
 .container_main {
@@ -93,6 +94,11 @@ footer {
 /* #endregion Utility */
 
 /* #region Aside */
+
+.main_sidebar{
+    flex-direction: column;
+    overflow: hidden;
+}
 
 .img_aside {
   width: 150px;
@@ -125,6 +131,8 @@ footer {
     padding-left: 20px;
     flex-direction: column;
     gap: 10px 0px;
+    overflow: hidden;
+    
 }
 
 .square{
@@ -151,7 +159,7 @@ footer {
 
 .list_playlist{
     flex-direction: column;
-    overflow-x: auto;
+    overflow: auto;
     gap: 15px 0;
     margin-top: 10px;
 }
@@ -161,9 +169,6 @@ footer {
     flex-direction: column;
     padding: 8px 20px;
     gap: 10px 0px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 .download_aside{
