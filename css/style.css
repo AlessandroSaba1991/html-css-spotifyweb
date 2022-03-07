@@ -24,6 +24,13 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
 /* #endregion Common */
 
 /* #region Utility */
@@ -36,14 +43,18 @@
 }
 
 .sidebar{
-    width: 20%;
+    width: 260px;
     background-color: var(--bg_aside);
     height: 100%;
+    padding: 0px 20px;
+    flex-direction: column;
+    gap: 10px 0px;
 }
 
 .container_main{
-    width: 80%;
+    width: calc(100% - 260px);
 }
+
 .header{
     height: 100px;
     background-color: var(--bg_header);
@@ -60,3 +71,31 @@ footer{
 }
 
 /* #endregion Utility */
+
+/* #region Aside */
+
+.img_aside{
+    width: 150px;
+    height: 100px;
+    align-content: center;
+}
+
+.button_aside{
+    color: var(--text_aside);
+    font-weight: bold;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.button_aside>svg>path{
+    fill: var(--text_aside);
+}
+
+.button_aside>svg{
+    width: 35px;
+}
+
+
+
+
+/* #endregion Aside */
