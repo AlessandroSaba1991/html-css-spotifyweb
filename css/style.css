@@ -1,6 +1,7 @@
 /* #region Var Colour */
 
 :root{
+    --bg_aside: rgba(0,0,0,1);
     --bg_header: rgba(8, 11, 18, 1);
     --bg_main: rgba(20, 25, 34, 1);
     --bg_footer: rgba(40, 40, 40, 1);
@@ -24,3 +25,38 @@
 }
 
 /* #endregion Common */
+
+/* #region Utility */
+#site_main{
+    height: calc(100vh - 100px);
+}
+
+.flex{
+    display: flex;
+}
+
+.sidebar{
+    width: 20%;
+    background-color: var(--bg_aside);
+    height: 100%;
+}
+
+.container_main{
+    width: 80%;
+}
+.header{
+    height: 100px;
+    background-color: var(--bg_header);
+}
+
+.main{
+    background-color: var(--bg_main);
+    height: calc(100% - 100px);
+}
+
+footer{
+    height: 100px;
+    background-color: var(--bg_footer);
+}
+
+/* #endregion Utility */
