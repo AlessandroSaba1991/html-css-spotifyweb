@@ -1,0 +1,26 @@
+/* #region Var Colour */
+
+:root{
+    --bg_header: rgba(8, 11, 18, 1);
+    --bg_main: rgba(20, 25, 34, 1);
+    --bg_footer: rgba(40, 40, 40, 1);
+    --line_footer: rgba(90, 90, 90, 1);
+    --text_aside: rgba(113, 113, 113, 1);
+    --text_main: rgba(125, 127, 132, 1);
+    --playlist: rgba(163, 163, 163, 1);
+    --active: rgba(173, 255, 47, 1);
+    --line_footer_light: rgba(193, 193, 193, 1);
+    
+}
+
+/* #endregion Var Colour */
+
+/* #region Common */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #endregion Common */
