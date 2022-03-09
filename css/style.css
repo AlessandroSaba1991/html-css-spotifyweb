@@ -103,6 +103,7 @@ p {
   flex-flow: column nowrap;
   justify-content: space-between;
   overflow: hidden;
+  transition: all 1s;
 }
 
 /* #region Main Sidebar */
