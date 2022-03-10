@@ -280,6 +280,10 @@ p {
   padding: 0 5px;
 }
 
+.album{
+  max-width: 1920px;
+}
+
 .img_album > a > i {
   display: none;
   position: absolute;
