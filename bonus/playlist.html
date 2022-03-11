@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-css-spotifyweb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/playlist.css">
+</head>
+
+<body>
+
+    <main id="site_main" class="flex">
+
+        <aside class="sidebar flex">
+
+            <div class="main_sidebar flex">
+
+                <div class="img_aside flex">
+
+                    <img src="./img/logo.svg" alt="logo spotify" class="logo">
+                    <img src="./img/logo-small.svg" alt="" class="logo_small">
+
+                </div>
+                <!-- /.img -->
+
+                <a href="#" class="button_aside flex">
+
+                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z"
+                            fill="#ffffff" />
+                    </svg>
+
+                    <span>Home</span>
+
+                </a>
+                <!-- /.button -->
+
+                <a href="#" class="button_aside flex">
+
+                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M349.714 347.937l93.714 109.969-16.254 13.969-93.969-109.969q-48.508 36.825-109.207 36.825-36.826 0-70.476-14.349t-57.905-38.603-38.603-57.905-14.349-70.476 14.349-70.476 38.603-57.905 57.905-38.603 70.476-14.349 70.476 14.349 57.905 38.603 38.603 57.905 14.349 70.476q0 37.841-14.73 71.619t-40.889 58.921zM224 377.397q43.428 0 80.254-21.461t58.286-58.286 21.461-80.254-21.461-80.254-58.286-58.285-80.254-21.46-80.254 21.46-58.285 58.285-21.46 80.254 21.46 80.254 58.285 58.286 80.254 21.461z"
+                            fill="#ffffff" fill-rule="evenodd" />
+                    </svg>
+
+                    <span>Cerca</span>
+
+                </a>
+                <!-- /.button -->
+
+                <a href="#" class="button_aside flex">
+
+                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z"
+                            fill="#ffffff" />
+                    </svg>
+
+                    <span>La tua libreria</span>
+
+                </a>
+                <!-- /.button -->
+
+                <div class="playlist flex">
+
+                    <h4>PLAYLIST</h4>
+
+                    <a href="#" class="plus_playlist flex">
+
+                        <div class="square flex">
+
+                            <i class="fa-solid fa-plus"></i>
+
+                        </div>
+                        <!-- /.square -->
+
+                        <span>Crea Playlist</span>
+
+                    </a>
+                    <!-- /.plus_playlist -->
+
+                    <ul class="list_playlist flex">
+
+                        <li><a href="#">Iron Maiden</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+
+
+                    </ul>
+                    <!-- /.list_playlist -->
+
+                </div>
+                <!-- /.playlist -->
+
+            </div>
+            <!-- /.main_sidebar -->
+
+            <div class="footer_sidebar flex">
+
+                <a href="#" class="download_aside flex">
+
+                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Download icon</title>
+                        <path
+                            d="M12 11.657V6h-1v5.65L9.076 9.414l-.758.65 3.183 3.702 3.195-3.7-.758-.653L12 11.657zM11.5 2C7.358 2 4 5.358 4 9.5c0 4.142 3.358 7.5 7.5 7.5 4.142 0 7.5-3.358 7.5-7.5C19 5.358 15.642 2 11.5 2zm0 14C7.916 16 5 13.084 5 9.5S7.916 3 11.5 3 18 5.916 18 9.5 15.084 16 11.5 16z"
+                            fill="#ffffff" fill-rule="evenodd" />
+                    </svg>
+
+                    <span>Installa app</span>
+
+                </a>
+                <!-- /.download_aside -->
+
+                <hr>
+
+                <a href="#" class="user_aside flex">
+
+                    <div class="circle user"></div>
+                    <!-- /.circle -->
+
+                    <h4>John Doe</h4>
+
+                </a>
+                <!-- /.user_aside -->
+
+            </div>
+            <!-- /.footer_aside -->
+
+        </aside>
+        <!-- /.sidebar -->
+
+        <div class="main flex">
+
+            <div class="header flex">
+
+                <div class="function flex">
+
+                    <div class="arrow flex">
+
+                        <a href="#" class="circle bg_white"><i class="fa-solid fa-angle-left"></i></a>
+                        <a href="#" class="circle bg_white"><i class="fa-solid fa-angle-right"></i></a>
+
+                    </div>
+                    <!-- /.arrow -->
+
+                    <div class="buttons flex">
+
+                        <a href="#" class="upgrade button bg_white">Upgrade</a>
+                        <!-- /.upgrade -->
+
+                        <a href="#" class="user_id button bg_white">Alessandro_Saba</a>
+                        <!-- /.user -->
+
+                    </div>
+                    <!-- /.button -->
+
+                </div>
+                <!-- /.function -->
+
+                <div class="title_playlist flex">
+
+                    <div class="img_header">
+
+                        <img src="https://www.emp-online.it/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dwc83bfc28/images/4/7/0/8/470810a.jpg?sfrm=png"
+                            alt="">
+
+                    </div>
+                    <!-- /.img_header -->
+
+                    <div class="description_playlist">
+
+                        <span>Playlist</span>
+
+                        <h1># IRON MAIDEN</h1>
+
+                        <p>Alessandro_Saba <i class="fa-solid fa-circle fa-2xs"></i> 15 Song, 1h 34min</p>
+
+                    </div>
+                    <!-- /.description_playlist -->
+
+                </div>
+                <!-- /.playlist -->
+
+            </div>
+            <!-- /.header -->
+
+            <div class="body flex">
+
+                <div class="function_body flex">
+
+                    <a href="#" class="circle play flex">
+
+                        <i class="fa-solid fa-play fa-xl"></i>
+
+                    </a>
+                    <!-- /.circle play -->
+
+                    <div class="more flex">
+
+                        <a href="#"><i class="fa-solid fa-ellipsis fa-2xl"></i></a>
+
+                    </div>
+                    <!-- /.more -->
+
+                </div>
+                <!-- /.function_body -->
+
+                <div class="table flex">
+
+                    <div class="row flex">
+
+                        <div class="col_lg flex">
+
+                            <span>#</span>
+
+                            <h4>TITLE</h4>
+
+                        </div>
+                        <!-- /.col_lg -->
+                        <div class="col_m">
+
+                            <h4>ALBUM</h4>
+
+                        </div>
+                        <!-- /.col_m -->
+                        <div class="col_m">
+
+                            <h4>DATE ADDED</h4>
+
+                        </div>
+                        <!-- /.col_m -->
+                        <div class="col_xs flex">
+
+                            <i class="fa-solid fa-clock fa-xl"></i>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                    </div>
+                    <!-- /.row flex -->
+
+                    <div class="row flex">
+
+                        <!-- 1 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>1</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://static.posters.cz/image/750/stampa-su-tela-iron-maiden-i111388.jpg"
+                                        alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>Intro</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>0:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 2 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>2</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://www.ibs.it/images/0190295567750_0_536_0_75.jpg" alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>Killers</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>3:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 3 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>3</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://c8.alamy.com/compit/rnr5fc/iron-maiden-pezzo-di-mente-vintage-cover-album-rnr5fc.jpg"
+                                        alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>Piece of Mind</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>4:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 4 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>4</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://images.backstreetmerch.com/images/products/bands/misc/iron/bsi_iron35.jpg"
+                                        alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>A matter of Life and Death</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>2:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 5 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>5</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://pbs.twimg.com/media/FG4JJ60XEAgHWS4?format=jpg&name=large" alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>Senjutsu</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>5:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 6 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>6</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://www.hrrshop.de/bilder/produkte/gross/IRON-MAIDEN-The-Trooper-7.jpg"
+                                        alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>The Trooper</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>1:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 7 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>7</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLRDiDckDRI7s2nBkJ9Bc6udpeTxZ39x8Jsg&usqp=CAU"
+                                        alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>Death On the Road</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>3:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+
+                        <!-- 8 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>8</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://static.posters.cz/image/750/stampa-su-tela-iron-maiden-i111388.jpg"
+                                        alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>Intro</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>0:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 9 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>9</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://www.ibs.it/images/0190295567750_0_536_0_75.jpg" alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>Killers</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>3:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 10 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>10</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://c8.alamy.com/compit/rnr5fc/iron-maiden-pezzo-di-mente-vintage-cover-album-rnr5fc.jpg"
+                                        alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>Piece of Mind</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>4:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 11 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>11</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://images.backstreetmerch.com/images/products/bands/misc/iron/bsi_iron35.jpg"
+                                        alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>A matter of Life and Death</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>2:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 12 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>12</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://pbs.twimg.com/media/FG4JJ60XEAgHWS4?format=jpg&name=large" alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>Senjutsu</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>5:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 13 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>13</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://www.hrrshop.de/bilder/produkte/gross/IRON-MAIDEN-The-Trooper-7.jpg"
+                                        alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>The Trooper</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>1:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                        <!-- 14 SONG -->
+
+                        <div class="col_lg flex">
+
+                            <span>14</span>
+
+                            <div class="song flex">
+
+                                <div class="img_song">
+
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLRDiDckDRI7s2nBkJ9Bc6udpeTxZ39x8Jsg&usqp=CAU"
+                                        alt="">
+
+                                </div>
+                                <!-- /.img_song -->
+
+                                <div class="description_song">
+
+                                    <h4>Death On the Road</h4>
+
+                                    <p>Iron Maiden</p>
+
+                                </div>
+                                <!-- /.description_song -->
+
+                            </div>
+                            <!-- /.song -->
+
+                        </div>
+                        <!-- /.col_lg -->
+
+                        <div class="col_m flex">
+
+                            <p>Iron Maiden - Live After Death</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_m flex">
+
+                            <p>1993</p>
+
+                        </div>
+                        <!-- /.col_m -->
+
+                        <div class="col_xs flex">
+
+                            <p>3:48</p>
+
+                        </div>
+                        <!-- /.col_xs -->
+
+                    </div>
+                    <!-- /.row flex -->
+
+
+                </div>
+                <!-- /.table -->
+            </div>
+            <!-- /.body -->
+
+        </div>
+        <!-- /.container_main -->
+
+    </main>
+    <!-- /#site_main -->
+
+    <footer id="site_footer">
+
+        <div class="footer_nav flex">
+
+            <div class="menu_left flex">
+
+                <a href="#" class="now_play flex">
+
+                    <div class="img_play">
+
+                        <img src="./img/sinister.jpeg" alt="">
+
+                    </div>
+                    <!-- /.img_play -->
+
+                    <div class="title_now_play">
+
+                        <h4>Sinister</h4>
+
+                        <p>Brano Nome</p>
+
+                    </div>
+                    <!-- /.title_now_play -->
+
+                </a>
+                <!-- /.now_play -->
+
+                <div class="icon_left">
+
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+
+                    <a href="#"><i class="fa-regular fa-folder"></i></a>
+
+                </div>
+                <!-- /.icon -->
+
+            </div>
+            <!-- /.menu_right -->
+
+            <div class="menu_center flex">
+
+                <div class="play_top flex">
+
+                    <a href="#"><i class="fa-solid fa-shuffle"></i></a>
+                    <a href="#"><i class="fa-solid fa-backward-step"></i></a>
+                    <a href="#"><i class="fa-regular fa-circle-play"></i></a>
+                    <a href="#"><i class="fa-solid fa-forward-step"></i></a>
+                    <a href="#"><i class="fa-solid fa-arrow-rotate-right"></i></a>
+
+                </div>
+                <!-- /.play_top -->
+
+                <div class="play_bottom flex">
+
+                    <span>0:25</span>
+
+                    <div class="line_dark line_long_center p_relative">
+
+                        <div class="line_light line_short_center"></div>
+                        <!-- /.line_light -->
+
+                        <div class="circle point_center"></div>
+                        <!-- /..circle.line_right -->
+
+                    </div>
+                    <!-- /.line_dark -->
+
+
+                    <span>4:35</span>
+
+                </div>
+                <!-- /.play_bottom -->
+
+            </div>
+            <!-- /.menu_center -->
+
+            <div class="menu_right flex">
+
+                <div class="icon_right">
+
+                    <a href="#"><i class="fa-solid fa-list"></i></a>
+                    <a href="#"><i class="fa-solid fa-desktop"></i></a>
+                    <a href="#"><i class="fa-solid fa-volume-high"></i></a>
+
+                </div>
+                <!-- /.icon_right -->
+
+
+                <div class="line_dark line_long_right p_relative">
+
+                    <div class="line_light line_short_right"></div>
+                    <!-- /.line_light -->
+
+                    <div class="circle point_right"></div>
+                    <!-- /.circle line_right -->
+
+                </div>
+                <!-- /.line_dark -->
+
+            </div>
+            <!-- /.menu_left -->
+
+        </div>
+        <!-- /.footer flex -->
+
+    </footer>
+    <!-- /#site_footer -->
+
+</body>
+
+</html>
